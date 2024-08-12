@@ -1,0 +1,40 @@
+.icons img {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 25%;
+  object-fit: contain;
+  transition: width 0.4s, height 0.4s, box-shadow 0.4s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icons img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.text-list ul {
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 100px;
+  row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+.text-list li {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 36px;
+  color: #0066ff;
+  padding: 5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

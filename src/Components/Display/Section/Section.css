@@ -1,0 +1,40 @@
+.section {
+  margin-top: 80px;
+  padding-bottom: 15px;
+}
+
+.section-top {
+  margin-top: 0;
+}
+
+.section .with-border {
+  border-bottom: 4px solid #00265f;
+}
+
+.section-label {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  color: #00265f;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid #00265f;
+}
+
+.section-inner {
+  text-align: center;
+  margin-top: 0;
+}
+
+.section-label-inner {
+  margin-top: 25px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+  color: #00265f;
+  align-content: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

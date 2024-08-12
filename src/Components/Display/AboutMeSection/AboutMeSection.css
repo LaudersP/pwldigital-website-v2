@@ -1,0 +1,38 @@
+.AboutMeSection {
+  display: flex;
+}
+
+.AboutMeSection img {
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.AboutMeSection-summary {
+  padding-left: 25px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 27px;
+  color: #0066ff;
+  text-align: justify;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.AboutMeSection-summary b {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 29px;
+  color: #00265f;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.AboutMeSection-summary p {
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 24px;
+}

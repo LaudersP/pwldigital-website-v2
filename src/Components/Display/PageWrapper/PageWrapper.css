@@ -1,0 +1,15 @@
+.pagewrapper {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  max-width: 90vw;
+  padding: 20px;
+  min-height: 94.4vh;
+}
+
+.pagewrapper-page-content {
+  margin-top: 92.5px;
+  background-color: #cccccc;
+  border-radius: 26px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
