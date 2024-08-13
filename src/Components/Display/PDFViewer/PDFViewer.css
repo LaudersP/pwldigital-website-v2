@@ -1,0 +1,22 @@
+.pdfviewer {
+  padding: 0%;
+  margin: 0%;
+}
+
+.pdfviewer-label {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  color: #00265f;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pdfviewer-pdf img {
+  width: 1000px;
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
