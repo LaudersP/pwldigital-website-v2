@@ -1,0 +1,104 @@
+.project-date h2 {
+  margin-top: 0%;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 29px;
+  color: #0066ff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-summary {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  color: #3385ff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0px 30px;
+  text-align: justify;
+}
+
+.project-outcome h2 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 29px;
+  color: #00265f;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-outcome ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  columns: 2;
+}
+
+.project-outcome li {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  color: #3385ff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-icons img {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 25%;
+  object-fit: contain;
+  transition: width 0.4s, height 0.4s, box-shadow 0.4s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-icons img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.project-icon-less {
+  display: flex;
+  justify-content: center;
+}
+
+.project-icon-less span {
+  margin: 20px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 36px;
+  color: #0066ff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-images img {
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.project-image {
+  margin: 20px;
+}
+
+.project-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
