@@ -1,0 +1,68 @@
+.workshop-page {
+  min-height: 100vh;
+}
+
+.workshop-page-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.workshop-page-banner img {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.workshop-page ul {
+  list-style-type: none;
+}
+
+.workshop-page #additive-manufacturing {
+  columns: 3;
+}
+
+.workshop-page #subtractive-manufacturing {
+  columns: 2;
+}
+
+.workshop-page #soldering-equipment {
+  columns: 3;
+}
+
+.workshop-page #testing-equipment {
+  columns: 4;
+}
+
+.workshop-page #microcontrollers {
+  columns: 6;
+}
+
+.workshop-page #single-board-computers {
+  columns: 4;
+}
+
+.workshop-page #design {
+  columns: 6;
+}
+
+.workshop-page #coding {
+  columns: 5;
+}
+
+.workshop-page #cam {
+  columns: 4;
+}
+
+.workshop-page li {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 30px;
+  color: #0066ff;
+  padding: 5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
