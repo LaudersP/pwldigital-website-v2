@@ -1,0 +1,42 @@
+.certification {
+  color: #0066ff;
+  margin: 15px 10px;
+}
+
+.certification-name {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certification-info {
+  display: flex;
+  justify-content: left;
+}
+
+.location,
+.date {
+  margin: 5px 15px;
+}
+
+.location .material-symbols-outlined,
+.date .material-symbols-outlined {
+  font-weight: 900;
+  color: #00265f;
+  margin: 0px 5px;
+}
+
+.location-label,
+.date-label {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 27px;
+  color: #3385ff;
+  text-align: justify;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
