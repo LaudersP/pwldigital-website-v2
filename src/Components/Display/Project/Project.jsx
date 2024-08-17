@@ -61,14 +61,7 @@ function Project({
           <Section label="Project  Images" innerSection>
             <div className="project-images">
               {images &&
-                images.map((image, index) => (
-                  // <img
-                  //   key={index}
-                  //   src={image.src}
-                  //   alt={image.alt}
-                  //   title={image.title}
-                  //   className="project-image"
-                  // />
+                images.map((image) => (
                   <ImageContainer
                     imageURL={image.src}
                     altText={image.alt}

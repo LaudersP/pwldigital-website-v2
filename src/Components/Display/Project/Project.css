@@ -32,9 +32,9 @@
 }
 
 .project-outcome ul {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0;
   columns: 2;
+  column-gap: 30px;
 }
 
 .project-outcome li {
@@ -101,4 +101,24 @@
   justify-content: center;
   align-items: center;
   padding-top: 25px;
+}
+
+@media (max-width: 1100px) {
+  .project-outcome ul {
+    columns: 1;
+  }
+
+  .project-icon-less {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-images img {
+    max-width: 65vw;
+  }
 }
