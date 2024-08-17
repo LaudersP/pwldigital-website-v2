@@ -15,8 +15,30 @@
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.pdfviewer-pdf img {
-  width: 1000px;
+.pdfviewer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.download-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pdfviewer-content img {
+  width: 70vw;
+  max-width: 1000px;
   height: auto;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.unsupported-message {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+  color: #0066ff;
 }
