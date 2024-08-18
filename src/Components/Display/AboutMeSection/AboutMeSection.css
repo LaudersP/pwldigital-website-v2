@@ -1,12 +1,12 @@
 .AboutMeSection {
   display: block;
-  overflow: hidden; /* Clear floats */
+  overflow: hidden;
 }
 
 .AboutMeSection-image {
-  float: left; /* Floats the image to the left */
-  margin-right: 20px; /* Adds space between the image and text */
-  margin-bottom: 20px; /* Adds space below the image */
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   width: 21vw;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -46,5 +46,17 @@
   .AboutMeSection-summary p,
   .AboutMeSection-summary b {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .AboutMeSection-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .AboutMeSection-summary p,
+  .AboutMeSection-summary b {
+    font-size: 18px;
   }
 }

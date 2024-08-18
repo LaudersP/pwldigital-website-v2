@@ -38,3 +38,19 @@
   align-content: center;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 400px) {
+  .section {
+    margin-top: 20px;
+    padding-bottom: 7px;
+  }
+
+  .section-label {
+    font-size: 30px;
+    border-bottom: 2px solid #00265f;
+  }
+
+  .section-label-inner {
+    font-size: 26px;
+  }
+}

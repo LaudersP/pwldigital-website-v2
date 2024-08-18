@@ -45,3 +45,11 @@
     font-size: 28px;
   }
 }
+
+@media (max-width: 400px) {
+  .text-list {
+    display: grid;
+    grid-column: 1;
+    font-size: 22px;
+  }
+}
