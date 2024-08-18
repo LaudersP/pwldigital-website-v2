@@ -20,7 +20,8 @@
   border-bottom-left-radius: 15px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  width: 30%;
+  width: 30vw;
+  height: auto;
 }
 
 .article-summary {
@@ -60,4 +61,25 @@
 .read-more {
   font-weight: 900;
   color: #0066ff;
+}
+
+@media (max-width: 1740px) {
+  .article-showcase img {
+    border-bottom-left-radius: 0%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .article-showcase {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .article-showcase img {
+    width: 100%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 15px;
+  }
 }

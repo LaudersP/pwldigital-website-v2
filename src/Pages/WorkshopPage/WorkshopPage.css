@@ -10,13 +10,16 @@
 .workshop-page-banner img {
   margin: 0;
   padding: 0;
-  width: 1200px;
+  width: 60vw;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .workshop-page ul {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
   list-style-type: none;
 }
 
@@ -57,6 +60,7 @@
 }
 
 .workshop-page li {
+  margin: 0;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 1000;
@@ -65,4 +69,33 @@
   color: #0066ff;
   padding: 5px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1700px) {
+  .workshop-page ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .workshop-page li {
+    font-size: 28px;
+  }
+
+  .workshop-page #subtractive-manufacturing {
+    display: flex;
+    justify-content: center;
+  }
+
+  .workshop-page #testing-equipment,
+  .workshop-page #single-board-computers,
+  .workshop-page #cam {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .workshop-page-banner img {
+    width: 78vw;
+  }
 }

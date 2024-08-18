@@ -87,20 +87,18 @@ function HomePage() {
           </Section>
           <Section label="Iconless Applications" innerSection>
             <div className="text-list">
-              <ul>
-                <li>AutoCAD</li>
-                <li>ChatGPT</li>
-                <li>Copilot</li>
-                <li>EagleCAD</li>
-                <li>Fusion360</li>
-                <li>Gemini</li>
-                <li>Google Workspace</li>
-                <li>Google Colab</li>
-                <li>Inventor</li>
-                <li>Microsoft Suite</li>
-                <li>Multisim</li>
-                <li>SolidWorks</li>
-              </ul>
+              <span>AutoCAD</span>
+              <span>ChatGPT</span>
+              <span>Copilot</span>
+              <span>EagleCAD</span>
+              <span>Fusion360</span>
+              <span>Gemini</span>
+              <span>Google Workspace</span>
+              <span>Google Colab</span>
+              <span>Inventor</span>
+              <span>Microsoft Suite</span>
+              <span>Multisim</span>
+              <span>SolidWorks</span>
             </div>
           </Section>
         </Section>
