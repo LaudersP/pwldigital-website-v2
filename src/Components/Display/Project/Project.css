@@ -108,12 +108,17 @@
     columns: 1;
   }
 
-  .project-icon-less {
-    display: flex;
-    flex-wrap: wrap;
+  .project-icons img {
+    width: 60px;
+    height: 60px;
   }
 
-  .project-images {
+  .project-icon-less span {
+    font-size: 28px;
+  }
+
+  .project-images,
+  .project-icon-less {
     display: flex;
     flex-wrap: wrap;
   }

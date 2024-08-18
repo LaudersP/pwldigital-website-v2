@@ -78,6 +78,10 @@
     grid-gap: 20px;
   }
 
+  .workshop-page li {
+    font-size: 28px;
+  }
+
   .workshop-page #subtractive-manufacturing {
     display: flex;
     justify-content: center;

@@ -4,9 +4,11 @@ import "./AboutMeSection.css";
 function AboutMeSection() {
   return (
     <div className="AboutMeSection">
-      <div className="AboutMeSection-image">
-        <img src="/images/headshot.png" alt="Headshot October 2023" />
-      </div>
+      <img
+        src="/images/headshot.png"
+        alt="Headshot October 2023"
+        className="AboutMeSection-image"
+      />
       <div className="AboutMeSection-summary">
         <p>
           Hi, my name is <b>Parker Lauders</b>!

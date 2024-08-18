@@ -15,20 +15,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
-.text-list ul {
-  list-style-type: none;
-
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+.text-list {
+  display: flex;
+  flex-wrap: wrap;
   column-gap: 100px;
   row-gap: 20px;
   justify-content: center;
   text-align: center;
   padding: 0%;
   margin: 0%;
-}
 
-.text-list li {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 1000;
@@ -37,4 +33,15 @@
   color: #0066ff;
   padding: 5px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1600px) {
+  .icons img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .text-list {
+    font-size: 28px;
+  }
 }
