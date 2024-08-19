@@ -29,7 +29,7 @@ function CopyrightNotice() {
             alt="ShareAlike Icon"
           />
         </a>{" "}
-        unless stated otherwise!
+        unless otherwise noted.
       </p>
     </div>
   );

@@ -99,3 +99,30 @@
     width: 78vw;
   }
 }
+
+@media (max-width: 768px) {
+  .workshop-page-banner img {
+    width: 84vw;
+  }
+
+  .workshop-page ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  .workshop-page li {
+    font-size: 18px;
+  }
+
+  .workshop-page #subtractive-manufacturing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .workshop-page #testing-equipment,
+  .workshop-page #single-board-computers,
+  .workshop-page #cam {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

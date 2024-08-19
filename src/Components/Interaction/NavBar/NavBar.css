@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   padding: 0;
   margin: 0;
@@ -7,6 +13,14 @@
   position: fixed;
   width: 100%;
   z-index: 100;
+}
+
+.navbar-content {
+  padding: 17px;
+  margin: 0;
+  background-color: #0066ff;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .navbar ul {
@@ -20,25 +34,14 @@
   font-size: 18px;
 }
 
-.navbar-content {
-  padding: 0;
-  margin: 0;
-  background-color: #0066ff;
-  border-radius: 100px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-}
-
 .navbar li {
   padding: 0;
-  margin: 0;
   margin: 0px 15px;
 }
 
 .navbar a {
-  margin: 0;
   color: #ffffff;
   text-decoration: none;
-  display: block;
   padding: 3px 6px;
   transition: background-color 0.75s, transform 0.75s;
   border-radius: 30px;
@@ -47,10 +50,95 @@
 .navbar a:not(.active-link):hover {
   background-color: #3385ff;
   border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: scale(1.1);
 }
 
 .navbar a.active-link {
   color: #00265f;
+}
+
+.mobile-navbar {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #0066ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 0%;
+}
+
+.mobile-navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.mobile-navbar-header .logo {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  color: #00265f;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#menu-icon {
+  cursor: pointer;
+  background-color: #3385ff;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  font-weight: 900;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-dropdown {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-top: 2px solid #00265f;
+}
+
+.mobile-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-dropdown li {
+  margin: 10px 0;
+  padding: 0px 10px;
+}
+
+.mobile-dropdown a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.mobile-dropdown a.active-link {
+  color: #00265f;
+}
+
+.mobile-dropdown a:hover {
+  background-color: #3385ff;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+@media (max-width: 768px) {
+  .desktop-navbar {
+    display: none;
+  }
+
+  .mobile-navbar {
+    display: flex;
+  }
 }

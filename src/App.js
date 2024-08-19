@@ -7,10 +7,12 @@ import PortfolioPage from "./Pages/PortfolioPage/PortfolioPage";
 import WorkshopPage from "./Pages/WorkshopPage/WorkshopPage";
 import SocialsPage from "./Pages/SocialsPage/SocialsPage";
 import AppearancesPage from "./Pages/AppearancesPage/AppearancesPage";
+import ScrollToTop from "./Components/Display/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />

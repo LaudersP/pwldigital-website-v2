@@ -13,3 +13,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .pagewrapper {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    max-width: 95vw;
+    padding: 0%;
+  }
+
+  .pagewrapper-page-content {
+    margin-top: 67.5px;
+  }
+}

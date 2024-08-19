@@ -30,7 +30,7 @@ function Project({
         </div>
         <div className="project-summary">{children}</div>
         <div className="project-outcome">
-          <h2>From this project, I was able to:</h2>
+          <h2>Through this project, I was able to:</h2>
           <ul>
             {outcomes.map((outcome, index) => (
               <li key={index}>{outcome}</li>
@@ -58,7 +58,7 @@ function Project({
           </div>
         </Section>
         {images.length > 0 && (
-          <Section label="Project  Images" innerSection>
+          <Section label="Project Images" innerSection>
             <div className="project-images">
               {images &&
                 images.map((image) => (

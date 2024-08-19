@@ -83,3 +83,23 @@
     border-top-right-radius: 15px;
   }
 }
+
+@media (max-width: 768px) {
+  .article-summary .title {
+    font-size: 26px;
+  }
+
+  .article-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .article-info .site {
+    margin: 0;
+    padding: 0;
+  }
+  .summary {
+    font-size: 14px;
+  }
+}

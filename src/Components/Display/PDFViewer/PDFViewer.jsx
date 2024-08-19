@@ -3,7 +3,7 @@ import "./PDFViewer.css";
 
 import Button from "../../Interaction/Button/Button";
 
-const PDFViewer = ({ label, filename, alt, title }) => {
+const PDFViewer = ({ label, filename, alt, title, filePath }) => {
   const [isSupported, setIsSupported] = useState(true);
 
   useEffect(() => {
@@ -41,7 +41,8 @@ const PDFViewer = ({ label, filename, alt, title }) => {
           />
         ) : (
           <div className="unsupported-message">
-            This device does not support the viewer, please download instead.
+            This device does not support the viewer. Please download the file
+            instead.
           </div>
         )}
       </div>
@@ -50,7 +51,7 @@ const PDFViewer = ({ label, filename, alt, title }) => {
           iconName="download"
           label="Download PDF"
           type="download"
-          destination={filename}
+          destination={filePath}
         />
       </div>
     </div>

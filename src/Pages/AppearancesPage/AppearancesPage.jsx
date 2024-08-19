@@ -11,23 +11,23 @@ function AppearancesPage() {
         <Section label="Athletic Articles" bottomBorder topOfPage>
           <ArticleSummary
             src="/article-thumbnails/lauders-bowl.png"
-            articleTitle="Lauders bowls his way to success at Shawnee State University"
+            articleTitle="Lauders Achieves Success at Shawnee State University"
             articleURL="https://shawneestatechronicle.com/5930/uncategorized/lauders-bowls-his-way-to-success-at-shawnee-state-university/"
             articleAuthor="Spencer Toy"
             articleSite="Shawnee State Chronicle"
           >
-            Parker Lauders’ journey at Shawnee State University is defined by
-            his passion for bowling and his dedication to both sport and
-            academics. From a pivotal high school tournament to a recent
-            fourth-place finish in Lafayette, Parker’s college experience has
-            been shaped by his commitment to improvement and teamwork. Balancing
-            his studies in computer engineering with the demands of competitive
-            bowling, Parker exemplifies how following your passion can lead to
-            personal growth and unforgettable college memories.
+            Parker Lauders' journey at Shawnee State University has been defined
+            by his unwavering passion for bowling and his dedication to both his
+            sport and academics. From a pivotal high school tournament to a
+            recent fourth-place finish in Lafayette, Parker's college experience
+            has been shaped by his commitment to improvement and teamwork.
+            Balancing his studies in computer engineering with the demands of
+            competitive bowling, Parker exemplifies how following one's passion
+            can lead to personal growth and unforgettable college memories.
           </ArticleSummary>
           <ArticleSummary
             src="/article-thumbnails/strike-up.png"
-            articleTitle="Strike up the excitement: SSU bowlers compete in Wright State tournament"
+            articleTitle="Strike Up the Excitement: SSU Bowlers Compete in Wright State Tournament"
             articleURL="https://shawneestatechronicle.com/5964/uncategorized/strike-up-the-excitement-ssu-bowlers-compete-in-wright-state-tournament/"
             articleAuthor="Spencer Toy"
             articleSite="Shawnee State Chronicle"
@@ -44,7 +44,7 @@ function AppearancesPage() {
           </ArticleSummary>
           <ArticleSummary
             src="/article-thumbnails/ssu-rise-to-fourth.png"
-            articleTitle="SSU men's bowling rises to fourth, advances to semifinals of Raider Classic"
+            articleTitle="SSU Men's Bowling Rises to Fourth, Advances to Semifinals of Raider Classic"
             articleURL="https://www.ssubears.com/sports/mbowl/2023-24/releases/20231112v30u0a"
             articleAuthor="Kevin Colley"
             articleSite="SSU Bears"

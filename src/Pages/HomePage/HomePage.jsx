@@ -12,7 +12,7 @@ function HomePage() {
       <PageWrapper>
         <AboutMeSection />
         <Section label="My Skills" bottomBorder={false}>
-          <Section label="Confident In" innerSection>
+          <Section label="Advanced In" innerSection>
             <div className="icons">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
@@ -28,6 +28,11 @@ function HomePage() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                 alt="Git Icon"
                 title="Git"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                alt="Python Icon"
+                title="Python"
               />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
@@ -69,11 +74,6 @@ function HomePage() {
                 title="JavaScript"
               />
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                alt="Python Icon"
-                title="Python"
-              />
-              <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                 alt="React.js Icon"
                 title="React.js"
@@ -85,7 +85,7 @@ function HomePage() {
               />
             </div>
           </Section>
-          <Section label="Iconless Applications" innerSection>
+          <Section label="Applications Without Icons" innerSection>
             <div className="text-list">
               <span>AutoCAD</span>
               <span>ChatGPT</span>
