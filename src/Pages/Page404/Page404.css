@@ -1,0 +1,29 @@
+.page-404 {
+  text-align: center;
+}
+
+.page-404 .error-message {
+  margin: 50px;
+}
+
+.page-404 .error-message h1 {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  color: #00265f;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page-404 .error-message p {
+  margin: 20px;
+  padding-bottom: 20px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+  color: #0066ff;
+}

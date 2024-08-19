@@ -8,6 +8,7 @@ import WorkshopPage from "./Pages/WorkshopPage/WorkshopPage";
 import SocialsPage from "./Pages/SocialsPage/SocialsPage";
 import AppearancesPage from "./Pages/AppearancesPage/AppearancesPage";
 import ScrollToTop from "./Components/Display/ScrollToTop/ScrollToTop";
+import Page404 from "./Pages/Page404/Page404";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/workshop" element={<WorkshopPage />} />
         <Route path="/socials" element={<SocialsPage />} />
         <Route path="/appearances" element={<AppearancesPage />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
     </BrowserRouter>
   );
