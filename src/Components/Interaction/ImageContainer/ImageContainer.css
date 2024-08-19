@@ -53,3 +53,9 @@
 .no-scroll {
   overflow: hidden;
 }
+
+@media (max-width: 400px) {
+  .overlay-content {
+    padding: 10px;
+  }
+}

@@ -127,3 +127,22 @@
     max-width: 65vw;
   }
 }
+
+@media (max-width: 400px) {
+  .project-date h2 {
+    font-size: 24px;
+  }
+
+  .project-summary {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .project-outcome li {
+    font-size: 18px;
+  }
+
+  .project-icon-less span {
+    font-size: 22px;
+  }
+}
