@@ -9,7 +9,7 @@ function PortfolioPage() {
       <PageWrapper>
         <CopyrightNotice />
         <Project
-          projectName="Developement and Implementation of Smart Robot Assistant Swimming Coach"
+          projectName="Development and Implementation of Smart Robot Assistant Swimming Coach"
           dateStarted="July 2023"
           dateEnded="IN PROGRESS"
           icons={[
@@ -32,11 +32,11 @@ function PortfolioPage() {
             "Microsoft Suite",
           ]}
           outcomes={[
-            "Led developement to ensure progress is made and meeting deadlines",
-            "Conduct research of parts to support project objectives",
-            "Manage project expenses closely to ensure adherence to the allocated budget",
-            "Research leading-edge AI technologies to ensure the reliability of the model",
-            "Train AI models to suit project objectives on custom datasets",
+            "Led development to ensure progress and meeting deadlines",
+            "Conducted research on parts to support project objectives",
+            "Managed project expenses closely to ensure adherence to the allocated budget",
+            "Researched leading-edge AI technologies to ensure the reliability of the model",
+            "Trained AI models to suit project objectives on custom datasets",
           ]}
           buttonData={[
             {
@@ -48,15 +48,14 @@ function PortfolioPage() {
             },
           ]}
         >
-          This project which is funded through the university, involves
-          developing a smart robot assistant to provide swimmers with real-time
-          feedback on their technique and performance. Utilizing AI-driven deep
-          learning systems integrated with commercial mini-computers, the robot
-          will analyze critical aspects of swimming techniques, such as stroke
-          rate, body alignment, and breathing patterns. It will offer instant,
-          actionable advice to enhance training quality, allowing swimmers to
-          make immediate adjustments. This innovation will mark a significant
-          advancement in sports technology, aiming to set a new standard for
+          This university-funded project involves developing a smart robot
+          assistant to provide swimmers with real-time feedback on their
+          technique and performance. Utilizing AI-driven deep learning systems
+          integrated with commercial mini-computers, the robot will analyze
+          critical aspects of swimming techniques, such as stroke rate, body
+          alignment, and breathing patterns. It will offer instant, actionable
+          advice to enhance training quality, allowing swimmers to make
+          immediate adjustments. This innovation aims to set a new standard for
           efficiency and effectiveness in competitive swimming training.
         </Project>
         <Project
@@ -101,12 +100,12 @@ function PortfolioPage() {
             },
           ]}
           outcomes={[
-            "Modernize the user interface for visitors",
-            "Gain more expirence programming in JavaScript",
-            "Gain more expirence using the React.js framework",
-            "Enhance my skills in front-end design and developement",
-            "Implement responsive design principles for mobile device support",
-            "Develop reusable components, allowing for easier site managment",
+            "Modernized the user interface for visitors",
+            "Gained more experience programming in JavaScript",
+            "Gained more experience using the React.js framework",
+            "Enhanced my skills in front-end design and development",
+            "Implemented responsive design principles for mobile device support",
+            "Developed reusable components, allowing for easier site management",
           ]}
         >
           This project represents a significant enhancement of my initial
@@ -119,12 +118,12 @@ function PortfolioPage() {
           dateStarted="May 2024"
           dateEnded="July 2024"
           outcomes={[
-            "Learn server-side automation and scheduling processes",
-            "Gain insights into optimizing software for minimal memory usuage",
-            "Begin developing proficiency with the React.js framwork",
-            "Expand open-source software projects",
-            "Enhance skills in integrating backend data with frontend interfaces",
-            "Deepen my understanding of database management software integration",
+            "Learned server-side automation and scheduling processes",
+            "Gained insights into optimizing software for minimal memory usage",
+            "Began developing proficiency with the React.js framework",
+            "Expanded open-source software projects",
+            "Enhanced skills in integrating backend data with frontend interfaces",
+            "Deepened my understanding of database management software integration",
           ]}
           icons={[
             {
@@ -164,7 +163,7 @@ function PortfolioPage() {
             },
             {
               src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
-              alt: "SQLite Icon",
+              alt: "SQL Icon",
               title: "SQL",
             },
             {
@@ -221,12 +220,12 @@ function PortfolioPage() {
           dateStarted="May 2023"
           dateEnded="October 2023"
           outcomes={[
-            "Gain a better understanding of datasheets and specification sheets",
-            "Gain a better understanding of circuits and PCB design",
-            "Learn about the types of A.I. models",
-            "Gain the ability for more efficent prototyping",
-            "Obtain an introduction to TensorFlow",
-            "Obtain an introduction to data augmentation/preprocessing",
+            "Gained a better understanding of datasheets and specification sheets",
+            "Gained a better understanding of circuits and PCB design",
+            "Learned about the types of A.I. models",
+            "Improved efficiency in prototyping",
+            "Received an introduction to TensorFlow",
+            "Received an introduction to data augmentation/preprocessing",
           ]}
           icons={[
             {
@@ -282,14 +281,14 @@ function PortfolioPage() {
             This project focused on taking a typical child's Power Wheels
             vehicle and converting it to be self-driven. This project was used
             as a step into learning about A.I. and understanding how companies
-            such as Tesla blends the barrier between the automobile industry and
+            such as Tesla blend the boundary between the automobile industry and
             the computer science realm.
           </p>
           <p>
             This project resulted in two dedicated systems, each tasked with
             their operations. The first is the A.I. "brain," which takes an
             image and predicts the desired move based on the vehicle's location
-            on the road. The second is the control system, which interrupts this
+            on the road. The second is the control system, which interprets this
             prediction and performs the necessary mechanical action. These
             include turning the steering assembly, powering the motors, using
             safety indicators, or auto braking.
@@ -332,10 +331,10 @@ function PortfolioPage() {
             },
           ]}
           outcomes={[
-            "Design and develop my first website",
-            "Showcase an extensive portfolio of Computer Science and Computer Engineering projects",
-            "Enhanc my professional visibility and accessibility",
-            "Achieve seamless integration of multimedia elements",
+            "Designed and developed my first website",
+            "Showcased an extensive portfolio of Computer Science and Computer Engineering projects",
+            "Enhanced my professional visibility and accessibility",
+            "Achieved seamless integration of multimedia elements",
           ]}
           buttonData={[
             {

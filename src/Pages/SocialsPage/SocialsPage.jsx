@@ -9,7 +9,7 @@ function SocialsPage() {
   return (
     <div className="socials-page">
       <PageWrapper>
-        <Section label="Professional Networking" topOfPage>
+        <Section label="Professional Networks" topOfPage>
           <div className="socials">
             <SocialContainer
               src="/images/handshake-icon.png"
@@ -25,7 +25,7 @@ function SocialsPage() {
             />
           </div>
         </Section>
-        <Section label="Coding Plateforms" bottomBorder>
+        <Section label="Coding Platforms" bottomBorder>
           <div className="socials">
             <SocialContainer
               src="/images/github-icon.png"
