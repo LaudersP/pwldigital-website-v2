@@ -1,5 +1,4 @@
 import React from "react";
-// import "./PortfolioPage.css";
 import PageWrapper from "../../Components/Display/PageWrapper/PageWrapper";
 import CopyrightNotice from "../../Components/Display/CopyrightNotice/CopyrightNotice";
 import Project from "../../Components/Display/Project/Project";

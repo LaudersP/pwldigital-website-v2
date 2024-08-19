@@ -100,7 +100,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .workshop-page-banner img {
     width: 84vw;
   }

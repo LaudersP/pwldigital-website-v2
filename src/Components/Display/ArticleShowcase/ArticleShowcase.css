@@ -84,7 +84,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .article-summary .title {
     font-size: 26px;
   }

@@ -14,7 +14,7 @@
   padding: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .pagewrapper {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
