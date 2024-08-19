@@ -11,7 +11,7 @@ function AppearancesPage() {
         <Section label="Athletic Articles" bottomBorder topOfPage>
           <ArticleSummary
             src="/article-thumbnails/lauders-bowl.png"
-            articleTitle="Lauders Achieves Success at Shawnee State University"
+            articleTitle="Lauders bowls his way to success at Shawnee State University"
             articleURL="https://shawneestatechronicle.com/5930/uncategorized/lauders-bowls-his-way-to-success-at-shawnee-state-university/"
             articleAuthor="Spencer Toy"
             articleSite="Shawnee State Chronicle"
@@ -27,7 +27,7 @@ function AppearancesPage() {
           </ArticleSummary>
           <ArticleSummary
             src="/article-thumbnails/strike-up.png"
-            articleTitle="Strike Up the Excitement: SSU Bowlers Compete in Wright State Tournament"
+            articleTitle="Strike up the excitement: SSU bowlers compete in Wright State Tournament"
             articleURL="https://shawneestatechronicle.com/5964/uncategorized/strike-up-the-excitement-ssu-bowlers-compete-in-wright-state-tournament/"
             articleAuthor="Spencer Toy"
             articleSite="Shawnee State Chronicle"
@@ -44,7 +44,7 @@ function AppearancesPage() {
           </ArticleSummary>
           <ArticleSummary
             src="/article-thumbnails/ssu-rise-to-fourth.png"
-            articleTitle="SSU Men's Bowling Rises to Fourth, Advances to Semifinals of Raider Classic"
+            articleTitle="SSU men's bowling rises to fourth, advances to semifinals of Raider Classic"
             articleURL="https://www.ssubears.com/sports/mbowl/2023-24/releases/20231112v30u0a"
             articleAuthor="Kevin Colley"
             articleSite="SSU Bears"
