@@ -2,11 +2,18 @@ import React from "react";
 import "./Button.css";
 
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 
-function Button({ iconName, label, type, destination }) {
+function Button({ iconName, label, type, destination, internalRoute }) {
+  const navigate = useNavigate();
+
   const handleClick = () => {
     if (type === "navigation") {
-      window.open(destination, "_blank");
+      if (internalRoute) {
+        navigate(destination);
+      } else {
+        window.open(destination, "_blank");
+      }
     } else if (type === "download") {
       const link = document.createElement("a");
       link.href = destination;
