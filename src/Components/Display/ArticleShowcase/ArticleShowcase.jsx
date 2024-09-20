@@ -7,6 +7,7 @@ function ArticleSummary({
   articleAuthor,
   articleSite,
   articleURL,
+  video,
   children,
 }) {
   const handleOnClick = () => {
@@ -23,7 +24,11 @@ function ArticleSummary({
           <span className="site">{articleSite}</span>
         </div>
         <div className="summary">{children}</div>
-        <span className="read-more">Click to read the full article...</span>
+        {video ? (
+          <span className="read-more">Click to view the video...</span>
+        ) : (
+          <span className="read-more">Click to read the full article...</span>
+        )}
       </div>
     </button>
   );
