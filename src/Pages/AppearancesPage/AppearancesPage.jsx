@@ -80,7 +80,7 @@ function AppearancesPage() {
             complementing their continued success on the lanes.
           </ArticleSummary>
           <ArticleSummary
-            src="/article-thumbnails/parker-lauders-feature.jpeg"
+            src="/article-thumbnails/Parker-Lauders-feature.jpeg"
             articleTitle="Lauders excelling in highest of manners as student-athlete inside SSU men's bowling program"
             articleURL="https://www.ssubears.com/sports/mbowl/2024-25/releases/202502202c9zze"
             articleAuthor="Kevin Colley"
