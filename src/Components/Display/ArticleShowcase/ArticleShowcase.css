@@ -63,11 +63,11 @@
   color: #0066ff;
 }
 
-@media (max-width: 1740px) {
+/* @media (max-width: 1740px) {
   .article-showcase img {
     border-bottom-left-radius: 0%;
   }
-}
+} */
 
 @media (max-width: 1100px) {
   .article-showcase {

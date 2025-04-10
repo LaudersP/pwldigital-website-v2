@@ -15,8 +15,8 @@ function AboutMeSection() {
         </p>
         <p>
           I am a <b>Junior</b> pursuing a <b>B.S.</b> in{" "}
-          <b>Computer Engineering Technology</b>, with a <b>minor</b> in{" "}
-          <b>Computer Aided Design & Drafting</b>. I expect to graduate in{" "}
+          <b>Computer Engineering Technology</b>, with <b>minors</b> in{" "}
+          <b>Computer Aided Design & Drafting</b> and <b>Computer Science</b>. I expect to graduate in{" "}
           <b>May 2026</b>. My passion lies in crafting innovative software and
           hardware solutions, and I am dedicated to pursuing a career as a{" "}
           <b>Software Engineer</b>.

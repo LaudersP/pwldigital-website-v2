@@ -10,6 +10,23 @@ function AppearancesPage() {
       <PageWrapper>
         <Section label="Video Appearances" bottomBorder topOfPage>
           <ArticleSummary
+            src="/article-thumbnails/cof-showcase.jpg"
+            articleTitle="Higher Ed Highlights: Episode 202 - STEM Scholars at the Statehouse"
+            articleURL="https://www.youtube.com/watch?v=nzP1eYZw0Xg"
+            articleAuthor="OhioHigherEd"
+            articleSite="YouTube"
+            video
+          >
+            Parker Lauders was one of 40 students selected statewide to present 
+            at the 2024 Choose Ohio First Showcase, a major STEM research event 
+            hosted at the Ohio Statehouse. Representing Shawnee State University, 
+            Parker shared his research with legislative aides, education officials, 
+            and Ohio Chancellor Mike Duffey, who spent 40 minutes discussing Parker's 
+            work and even mentioned him in his closing remarks. The event was a 
+            milestone in Parker's academic journey, highlighting both his 
+            accomplishments and his drive to grow as a STEM leader in Ohio.
+          </ArticleSummary>
+          <ArticleSummary
             src="/article-thumbnails/senate-grant.png"
             articleTitle="Shawnee State University - A Hidden Gem on the Cutting Edge of Technology"
             articleURL="https://youtu.be/xT96IT0iuNA?si=suDH1Snet0AiBvVd"
@@ -45,7 +62,57 @@ function AppearancesPage() {
             the student community, fostering technical and professional growth.
           </ArticleSummary>
         </Section>
-        <Section label="Athletic Articles" bottomBorder>
+        <Section label="Article Appearances" bottomBorder>
+          <ArticleSummary
+            src="/article-thumbnails/academic-all-obc-2025.jpeg"
+            articleTitle="Nine men's bowlers named Academic All-OBC"
+            articleURL="https://www.ssubears.com/sports/mbowl/2024-25/releases/20250326i6t3er"
+            articleAuthor="Kevin Colley"
+            articleSite="Shawnee State Bears"
+          >
+            Shawnee State men's bowling saw nine athletes named to the Academic 
+            All-Ohio Bowling Conference list, with nearly 70% of the team earning 
+            the honor. Among them was Parker Lauders, who led the team with a 3.86 
+            GPA in computer engineering technology and over 95 credit hours. He was 
+            joined by high-achievers Blake Landers (3.83 GPA) and Zach Ison (3.76 
+            GPA), with several others boasting GPAs above 3.5. The list reflects 
+            the team's strong academic performance during the 2024-25 season, 
+            complementing their continued success on the lanes.
+          </ArticleSummary>
+          <ArticleSummary
+            src="/article-thumbnails/parker-lauders-feature.jpeg"
+            articleTitle="Lauders excelling in highest of manners as student-athlete inside SSU men's bowling program"
+            articleURL="https://www.ssubears.com/sports/mbowl/2024-25/releases/202502202c9zze"
+            articleAuthor="Kevin Colley"
+            articleSite="Shawnee State Bears"
+          >
+            In under three years at Shawnee State, Parker Lauders has achieved what
+            many hope to in a full academic career—earning NAIA Scholar-Athlete 
+            honors, leading the bowling team to a USBC Sectionals bid, winning the
+            2024 Presidential Award for Innovation, and maintaining a 3.86 GPA as
+            a computer engineering technology major. Beyond the lanes, Parker 
+            has presented research at TechFest and the Statehouse, served as 
+            IEEE Vice President, and led a grant-funded robotics project. His 
+            journey from high school standout to collegiate leader showcases the 
+            power of combining academic excellence, athletic commitment, and 
+            community impact.
+          </ArticleSummary>
+          <ArticleSummary
+            src="/article-thumbnails/naia-scholar-athletes-2025.jpeg"
+            articleTitle="SSU MBOWL places program-record six on NAIA Scholar-Athlete list"
+            articleURL="https://www.ssubears.com/sports/mbowl/2024-25/releases/20250219lks1s6"
+            articleAuthor="Kevin Colley"
+            articleSite="Shawnee State Bears"
+          >
+            Shawnee State University's men's bowling team set a new program 
+            record with six athletes named NAIA Scholar-Athletes, including 
+            Parker Lauders, Sam Clay, Ashton Heckman, Zach Ison, Blake Landers, 
+            and Andrew Schoener. Lauders led the group with a 3.86 GPA in computer 
+            engineering technology and over 95 credit hours, adding to an impressive 
+            resume of research presentations and leadership in SSU's IEEE chapter. 
+            The honors reflect the team's academic strength alongside athletic 
+            success during the 2024-25 season.
+          </ArticleSummary>
           <ArticleSummary
             src="/article-thumbnails/csc-academic-all-district-2024.jpeg"
             articleTitle="Clay, Lauders named as CSC Academic All-District At-Large honorees for SSU men's bowling"
@@ -71,7 +138,7 @@ function AppearancesPage() {
             articleAuthor="Kevin Colley"
             articleSite="Shawnee State Bears"
           >
-            Shawnee State University’s men's bowling program had nine athletes
+            Shawnee State University's men's bowling program had nine athletes
             named Academic All-OBC honorees, including Sam Clay, Parker Lauders,
             and Ashton Heckman, who achieved a clean sweep of academic awards by
             earning Academic All-OBC, NAIA Scholar-Athlete, and NCBCA honors.

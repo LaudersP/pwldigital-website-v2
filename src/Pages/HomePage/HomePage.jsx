@@ -30,6 +30,11 @@ function HomePage() {
                 title="Git"
               />
               <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub Icon"
+                title="GitHub"
+              />
+              <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                 alt="Python Icon"
                 title="Python"
@@ -52,6 +57,11 @@ function HomePage() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
                 alt="C Icon"
                 title="C"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                alt="C# Icon"
+                title="C#"
               />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -89,6 +99,7 @@ function HomePage() {
             <div className="text-list">
               <span>AutoCAD</span>
               <span>ChatGPT</span>
+              <span>Claude</span>
               <span>Copilot</span>
               <span>EagleCAD</span>
               <span>Fusion360</span>

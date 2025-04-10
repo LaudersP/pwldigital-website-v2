@@ -11,7 +11,7 @@ function PortfolioPage() {
         <Project
           projectName="Development and Implementation of Smart Robot Assistant Swimming Coach"
           dateStarted="July 2023"
-          dateEnded="IN PROGRESS"
+          dateEnded="December 2024"
           icons={[
             {
               src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
@@ -30,6 +30,7 @@ function PortfolioPage() {
             "Gemini",
             "Google Colab",
             "Microsoft Suite",
+            "YOLO"
           ]}
           outcomes={[
             "Led development to ensure progress and meeting deadlines",
